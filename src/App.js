@@ -7,6 +7,7 @@ import AppNavBar from "./components/AppNavBar";
 import AppFooter from "./components/AppFooter";
 import AppGrid from "./components/AppGrid";
 
+
 function App() {
   return (
     <div>

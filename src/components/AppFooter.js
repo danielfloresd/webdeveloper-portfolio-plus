@@ -1,29 +1,42 @@
-// import 'bootswatch/dist/flatly/bootstrap.min.css';
-import { Nav, Container } from "react-bootstrap";
 import React from "react";
+import { Row, Col } from "react-bootstrap";
+import { Wifi, Facebook, Instagram, Twitter, Google } from "react-bootstrap-icons";
 
-class AppFooter extends React.Component {
-  render() {
-    return (
-      <Container className="footer">
-        <Container>
-          <Container className="row d-flex align-items-center">
-            <Container className="col-md-6">
-              <Nav.Link className="navbar-brand" exact to="/">
-                {/* <Logo alt="logo" /> */}
-              </Nav.Link>
-            </Container>
-            <Container className="col-md-6 d-flex justify-content-around">
-              <Nav.Link exact to="/">
-                Home
-              </Nav.Link>
-              <Nav.Link to="/about-us">About Us</Nav.Link>
-              <Nav.Link to="/contact">Contact</Nav.Link>
-            </Container>
-          </Container>
-          </Container>
-      </Container>
-    );
-  }
+function AppFooter() {
+  return (
+    <footer
+      className="bg-primary text-white text-center text-lg-start"
+      //   style={{ background: "#2d3246" }}
+    >
+      <Row noGutters className="social-container">
+        <Col>
+          <a className="social-inner" href="#">
+            {/* <span className="icon mdi mdi-facebook"></span> */}
+            <Facebook />
+            {/* <span>Facebook</span> */}
+          </a>
+        </Col>
+        <Col>
+          <a className="social-inner" href="#">
+            <Instagram />
+            {/* <span>instagram</span> */}
+          </a>
+        </Col>
+        <Col>
+          <a className="social-inner" href="#">
+            <Twitter />
+            {/* <span>twitter</span> */}
+          </a>
+        </Col>
+        <Col>
+          <a className="social-inner" href="#">
+            <Google />
+            {/* <span>google</span> */}
+          </a>
+        </Col>
+      </Row>
+    </footer>
+  );
 }
+
 export default AppFooter;
