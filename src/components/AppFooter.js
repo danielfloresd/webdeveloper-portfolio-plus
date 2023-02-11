@@ -1,6 +1,12 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
-import { Wifi, Facebook, Instagram, Twitter, Google } from "react-bootstrap-icons";
+import {Col, Row} from "react-bootstrap";
+import {
+  Facebook,
+  Google,
+  Instagram,
+  Twitter,
+  Wifi
+} from "react-bootstrap-icons";
 
 function AppFooter() {
   return (

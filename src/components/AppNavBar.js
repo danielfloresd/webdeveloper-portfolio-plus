@@ -1,11 +1,6 @@
 // import 'bootswatch/dist/flatly/bootstrap.min.css';
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-  Container
-} from "react-bootstrap";
 import React from "react";
+import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
 
 class AppNavbar extends React.Component {
   render() {
