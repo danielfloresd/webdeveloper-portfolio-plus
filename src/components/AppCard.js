@@ -1,9 +1,9 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Badge from "react-bootstrap/Badge";
 // import Button from 'react-bootstrap/Button';
 // import { CardBody, CardTitle, CardText } from 'react-bootstrap/Card';
 import { Github } from "react-bootstrap-icons";
+import Badge from "react-bootstrap/Badge";
+import Card from "react-bootstrap/Card";
 
 function AppCard({ title, description, url, github, tech, image }) {
   return (
