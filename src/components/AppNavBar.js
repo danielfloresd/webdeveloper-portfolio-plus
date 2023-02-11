@@ -21,15 +21,6 @@ class AppNavbar extends React.Component {
               <Nav.Link href="#">Features</Nav.Link>
               <Nav.Link href="#">Pricing</Nav.Link>
               <Nav.Link href="#">About</Nav.Link>
-              <Nav.Link href="#" dropdown="true">
-                Dropdown
-              </Nav.Link>
-              <Nav.Link href="#">Action</Nav.Link>
-              <Nav.Link href="#">Another action</Nav.Link>
-              <Nav.Link href="#">Something else here</Nav.Link>
-              <Nav.Link href="#" disabled>
-                Separated link
-              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
