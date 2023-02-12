@@ -4,11 +4,11 @@ import { Wifi, Facebook, Instagram, Twitter, Google } from "react-bootstrap-icon
 
 function AppFooter() {
   return (
-    <footer
-      className="bg-primary text-white text-center text-lg-start"
+    <div
+      // className="bg-secondary"// text-white text-center text-lg-start"
       //   style={{ background: "#2d3246" }}
     >
-      <Row noGutters className="social-container">
+      <Row  className="social-container">
         <Col>
           <a className="social-inner" href="#">
             {/* <span className="icon mdi mdi-facebook"></span> */}
@@ -35,7 +35,7 @@ function AppFooter() {
           </a>
         </Col>
       </Row>
-    </footer>
+    </div>
   );
 }
 
