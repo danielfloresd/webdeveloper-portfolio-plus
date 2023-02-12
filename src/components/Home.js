@@ -2,18 +2,18 @@ import Navigation from "./Navigation";
 import Footer from "./Footer";
 import AppHome from "./AppHome";
 
-function Home() {
+function Home({css}) {
   return (
     <div>
       <header>
-        <Navigation />
+        <Navigation/>
       </header>
       <main>
-        {/* <h1>Home</h1> */}
+        <h2 className="text-center">Home</h2>
         <AppHome />
       </main>
       <footer>
-        <Footer />
+        <Footer theme={css}/>
       </footer>
     </div>
   );

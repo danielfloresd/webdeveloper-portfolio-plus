@@ -1,9 +1,9 @@
   import AppFooter from "./AppFooter";
   
-  function Footer() {
+  function Footer({theme}) {
     return (
       <footer>
-        <AppFooter />
+        <AppFooter theme={theme} />
       </footer>
     );
   }

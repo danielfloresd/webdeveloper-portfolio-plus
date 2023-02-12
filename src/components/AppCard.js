@@ -7,7 +7,7 @@ import { Github } from "react-bootstrap-icons";
 
 function AppCard({ title, description, url, github, tech, image }) {
   return (
-    <Card style={{ width: "400px"}}>
+    <Card className="mb-10" style={{ width: "400px", marginBottom:"20"}}>
       <Card.Header>{title}</Card.Header>
       <a href={url} variant="link">
         <Card.Img src={image} style={{ width: "400px", height: "200px" }} />
@@ -21,7 +21,7 @@ function AppCard({ title, description, url, github, tech, image }) {
         <Card.Footer>
         <Badge bg="secondary">
           <a href={github} data-tooltip="danielfloresd">
-            <Github />
+            <Github />{tech}
           </a>
         </Badge>
         </Card.Footer>
