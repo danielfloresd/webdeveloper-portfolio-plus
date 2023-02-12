@@ -1,21 +1,35 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 // import 'jquery';
 // import 'popper';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import 'bootswatch/dist/morph/bootstrap.min.css'
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import "bootswatch/dist/lux/bootstrap.min.css";
 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// import Home from "./components/Home";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import AboutMe from "./components/AboutMe";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      {/* <App /> */}
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about-me" element={<AboutMe />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
