@@ -5,8 +5,7 @@ import React from "react";
 
 import { LinkContainer } from "react-router-bootstrap";
 
-class AppNavbar extends React.Component {
-  render() {
+function AppNavbar() {
     return (
       <>
         <Navbar className="navbar-expand-lg navbar-dark bg-primary">
@@ -30,6 +29,7 @@ class AppNavbar extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Container>
+          <Nav.Link>🌮</Nav.Link>
         </Navbar>
         <section className="hero">
           <div className="hero-background"></div>
@@ -44,5 +44,5 @@ class AppNavbar extends React.Component {
       </>
     );
   }
-}
+
 export default AppNavbar;

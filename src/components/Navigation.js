@@ -1,6 +1,6 @@
 import AppNavbar from "./AppNavBar";
 
-function Navigation() {
+function Navigation({css}) {
   return (
     <header>
       <AppNavbar />

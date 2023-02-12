@@ -1,37 +1,54 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import { Wifi, Facebook, Instagram, Twitter, Google } from "react-bootstrap-icons";
+import {
+  Wifi,
+  Linkedin,
+  Github,
+  Twitter,
+  Google,
+  Bootstrap,
+} from "react-bootstrap-icons";
 
-function AppFooter() {
+function AppFooter({ theme }) {
   return (
     <div
-      // className="bg-secondary"// text-white text-center text-lg-start"
-      //   style={{ background: "#2d3246" }}
+    // className="bg-secondary"// text-white text-center text-lg-start"
+    //   style={{ background: "#2d3246" }}
     >
-      <Row  className="social-container">
+      <Row className="social-container">
         <Col>
           <a className="social-inner" href="#">
             {/* <span className="icon mdi mdi-facebook"></span> */}
-            <Facebook />
+          </a>
+        </Col>
+        <Col>
+          <a className="social-inner" href="#">
+            {/* <span className="icon mdi mdi-facebook"></span> */}
+            <Linkedin />
             {/* <span>Facebook</span> */}
           </a>
         </Col>
         <Col>
           <a className="social-inner" href="#">
-            <Instagram />
+            <Github />
             {/* <span>instagram</span> */}
-          </a>
-        </Col>
-        <Col>
-          <a className="social-inner" href="#">
-            <Twitter />
-            {/* <span>twitter</span> */}
           </a>
         </Col>
         <Col>
           <a className="social-inner" href="#">
             <Google />
             {/* <span>google</span> */}
+          </a>
+        </Col>
+        <Col>
+          <a className="social-inner" href="#">
+            <Bootstrap />
+            <span style={{fontSize:"xx-small"}}>{theme}</span>
+          </a>
+        </Col>
+        <Col>
+          <a className="social-inner" href="#">
+            {/* <span className="icon mdi mdi-facebook"></span> */}
           </a>
         </Col>
       </Row>

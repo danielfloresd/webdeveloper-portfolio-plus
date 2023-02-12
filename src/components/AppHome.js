@@ -19,7 +19,7 @@ function AppHome() {
         <img
           className="d-block w-100"
         //   src="holder.js/800x400?text=First slide&bg=373940"
-          src="assets/images/casa-del-muelle-san-carlos.png"
+          src="assets/images/aptly.png"
           style={{width:600, height:800}}
           alt="First slide"
         />
@@ -31,7 +31,7 @@ function AppHome() {
         <img
           className="d-block w-100"
         //   src="holder.js/800x400?text=First slide&bg=373940"
-          src="assets/images/casa-del-muelle-san-carlos.png"
+          src="assets/images/"
           style={{width:600, height:800}}
           alt="First slide"
         />

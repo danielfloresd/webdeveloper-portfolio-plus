@@ -5,11 +5,12 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 // import 'jquery';
 // import 'popper';
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import "bootswatch/dist/lux/bootstrap.min.css";
+// import "bootswatch/dist/cerulean/bootstrap.min.css";
+// Import of available bootwatch theme name to an array
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 

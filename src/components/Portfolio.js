@@ -1,6 +1,7 @@
 import Navigation from "./Navigation";
 import Footer from "./Footer";
 import AppGrid from "./AppGrid";
+import Button from "react-bootstrap/Button";
 
 function Porfolio() {
   return (
@@ -9,8 +10,13 @@ function Porfolio() {
         <Navigation />
       </header>
       <main>
-        {/* <h1>Porfolio</h1> */}
+        <h2 className="text-center">Porfolio</h2>
         <AppGrid />
+        <a href="https://github.com/danielfloresd?tab=repositories">
+          <Button variant="info" size="sm" block>
+            View More...
+          </Button>
+        </a>
       </main>
       <footer>
         <Footer />
