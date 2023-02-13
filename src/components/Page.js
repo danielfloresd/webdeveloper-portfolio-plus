@@ -6,19 +6,19 @@ import PageContent from "./PageContent";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 
-function Page({currentPage}) {
+function Page({ currentPage }) {
   const renderPage = () => {
     switch (currentPage.name) {
-    case "About Me":
-      return <About />;
-    case "Portfolio":
-      return <Portfolio />;
-    case "Resume":
-      return <Resume />;
-    case "Contact":
-      return <Contact />;
-    default:
-      return <About />;
+      case "About Me":
+        return <About />;
+      case "Portfolio":
+        return <Portfolio />;
+      case "Resume":
+        return <Resume />;
+      case "Contact":
+        return <Contact />;
+      default:
+        return <About />;
     }
   };
   return (
