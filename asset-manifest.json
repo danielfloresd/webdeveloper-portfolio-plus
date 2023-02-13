@@ -109,8 +109,5 @@
     "3380.328cbb75.chunk.css.map": "/webdeveloper-portfolio-plus/static/css/3380.328cbb75.chunk.css.map",
     "7720.db244f65.chunk.css.map": "/webdeveloper-portfolio-plus/static/css/7720.db244f65.chunk.css.map"
   },
-  "entrypoints": [
-    "static/css/main.e82e5bd6.css",
-    "static/js/main.b76fbaa7.js"
-  ]
+  "entrypoints": ["static/css/main.e82e5bd6.css", "static/js/main.b76fbaa7.js"]
 }
