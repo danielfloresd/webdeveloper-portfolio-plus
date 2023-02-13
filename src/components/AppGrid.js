@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import AppCard from "./AppCard";
+import Project from "./Project";
 import PROJECTS  from "./ProjectList";
 
 function AppGrid() {
@@ -9,7 +9,7 @@ function AppGrid() {
       <Row>
         {PROJECTS.map((project) => (
           <Col>
-            <AppCard
+            <Project
               title={project.title}
               description={project.description}
               url={project.url}

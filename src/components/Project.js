@@ -5,7 +5,7 @@ import Badge from "react-bootstrap/Badge";
 // import { CardBody, CardTitle, CardText } from 'react-bootstrap/Card';
 import { Github } from "react-bootstrap-icons";
 
-function AppCard({ title, description, url, github, tech, image }) {
+function Project({ title, description, url, github, tech, image }) {
   return (
     <Card className="mb-10" style={{ width: "400px", marginBottom:"20"}}>
       <Card.Header>{title}</Card.Header>
@@ -29,4 +29,4 @@ function AppCard({ title, description, url, github, tech, image }) {
     </Card>
   );
 }
-export default AppCard;
+export default Project;
