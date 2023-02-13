@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webdeveloper-portfolio-plus/static/css/main.e82e5bd6.css",
-    "main.js": "/webdeveloper-portfolio-plus/static/js/main.6f5ea1a4.js",
+    "main.css": "/webdeveloper-portfolio-plus/static/css/main.478c29b3.css",
+    "main.js": "/webdeveloper-portfolio-plus/static/js/main.cb530e80.js",
     "static/js/8957.c2bf39ef.chunk.js": "/webdeveloper-portfolio-plus/static/js/8957.c2bf39ef.chunk.js",
     "static/js/2946.d2a7bf17.chunk.js": "/webdeveloper-portfolio-plus/static/js/2946.d2a7bf17.chunk.js",
     "static/js/262.6e5915a8.chunk.js": "/webdeveloper-portfolio-plus/static/js/262.6e5915a8.chunk.js",
@@ -53,10 +53,10 @@
     "static/css/6870.63f6a097.chunk.css": "/webdeveloper-portfolio-plus/static/css/6870.63f6a097.chunk.css",
     "static/css/3380.328cbb75.chunk.css": "/webdeveloper-portfolio-plus/static/css/3380.328cbb75.chunk.css",
     "static/css/7720.db244f65.chunk.css": "/webdeveloper-portfolio-plus/static/css/7720.db244f65.chunk.css",
-    "static/media/hero-san-carlos.jfif": "/webdeveloper-portfolio-plus/static/media/hero-san-carlos.8dfabd286a26352c746f.jfif",
+    "static/media/hero.jfif": "/webdeveloper-portfolio-plus/static/media/hero.8dfabd286a26352c746f.jfif",
     "index.html": "/webdeveloper-portfolio-plus/index.html",
-    "main.e82e5bd6.css.map": "/webdeveloper-portfolio-plus/static/css/main.e82e5bd6.css.map",
-    "main.6f5ea1a4.js.map": "/webdeveloper-portfolio-plus/static/js/main.6f5ea1a4.js.map",
+    "main.478c29b3.css.map": "/webdeveloper-portfolio-plus/static/css/main.478c29b3.css.map",
+    "main.cb530e80.js.map": "/webdeveloper-portfolio-plus/static/js/main.cb530e80.js.map",
     "8957.c2bf39ef.chunk.js.map": "/webdeveloper-portfolio-plus/static/js/8957.c2bf39ef.chunk.js.map",
     "2946.d2a7bf17.chunk.js.map": "/webdeveloper-portfolio-plus/static/js/2946.d2a7bf17.chunk.js.map",
     "262.6e5915a8.chunk.js.map": "/webdeveloper-portfolio-plus/static/js/262.6e5915a8.chunk.js.map",
@@ -110,7 +110,7 @@
     "7720.db244f65.chunk.css.map": "/webdeveloper-portfolio-plus/static/css/7720.db244f65.chunk.css.map"
   },
   "entrypoints": [
-    "static/css/main.e82e5bd6.css",
-    "static/js/main.6f5ea1a4.js"
+    "static/css/main.478c29b3.css",
+    "static/js/main.cb530e80.js"
   ]
 }
