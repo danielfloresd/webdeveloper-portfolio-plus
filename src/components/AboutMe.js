@@ -6,9 +6,9 @@ function About() {
     <main>
     <br />
     <img
-        src="assets/images/headshot2.png"
-        id="mypicture"
-        alt="Daniel Fores
+  src = "assets/images/headshot2.png"
+  id = "mypicture"
+  alt = "Daniel Fores
                 Picture"
       />
    <Card className="mb-10">
@@ -20,9 +20,10 @@ function About() {
         the success of multiple projects, leveraging my passion for
         technology to bring innovative solutions to life. I've been involved
         in every aspect of the business, from start-up to development and
-        operations, and my attention to detail and problem-solving skills
-        have proven invaluable time and time again. 
-      </p>
+                operations,
+                    and my attention to detail and problem - solving skills
+                have proven invaluable time and time again.<
+                    /p>
       <p> 
         I'm also a strong believer in lifelong learning. I believe that in order to stay at
         the forefront of my field, I must continuously seek out new
@@ -31,9 +32,9 @@ function About() {
         my best to every task. Whether working independently or as part of a
         team, I am committed to excellence in all that I do.
       </p>
-      </Card.Body>
-    </Card>
-  </main>
+                    </Card.Body>
+    </Card><
+                    /main>
   );
 }
 

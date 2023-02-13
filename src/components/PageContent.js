@@ -1,5 +1,5 @@
 import React from "react";
-const PageContent= (props)=>{
+const PageContent = (props) => {
     return (
         <div>
             {props.children}

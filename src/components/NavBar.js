@@ -1,16 +1,14 @@
-import React, { useEffect } from 'react';
-import { Navbar, Nav, Container } from "react-bootstrap";
-
+import React, {useEffect} from 'react';
+import {Container, Nav, Navbar} from "react-bootstrap";
 
 function NavBar(props) {
-    const {
-        pages = [],
-        setCurrentPage,
-        currentPage,
-    } = props;
-    useEffect(() => {
-        document.title = `DanielFloresD - ${currentPage.name}`;
-    }, [currentPage]);
+  const {
+    pages = [],
+    setCurrentPage,
+    currentPage,
+  } = props;
+  useEffect(() => { document.title = `DanielFloresD - ${currentPage.name}`; },
+            [ currentPage ]);
     return (
         <>
             <Navbar className="navbar-expand-lg navbar-dark bg-primary" expand="lg">

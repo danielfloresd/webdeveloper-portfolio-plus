@@ -1,6 +1,8 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import {Button, Col, Container, Row} from "react-bootstrap";
+
 import Project from "../components/Project";
+
 import PROJECTS from "./projects";
 
 function Portfolio() {
@@ -16,7 +18,8 @@ function Portfolio() {
                 url={project.url}
                 github={project.github}
                 tech={project.tech}
-                image={project.image}
+                image={
+    project.image}
               />
             </Col>
           ))}
