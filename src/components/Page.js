@@ -1,10 +1,10 @@
 import React from "react";
 
-import PageContent from "./PageContent";
 import About from "./AboutMe";
+import Contact from "./Contact";
+import PageContent from "./PageContent";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
-import Contact from "./Contact";
 
 function Page({ currentPage }) {
   const renderPage = () => {

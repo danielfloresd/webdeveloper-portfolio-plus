@@ -1,11 +1,11 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import {
-  Linkedin,
-  Github,
-  Instagram,
-  Google,
   Bootstrap,
+  Github,
+  Google,
+  Instagram,
+  Linkedin,
 } from "react-bootstrap-icons";
 
 function Footer() {
@@ -21,6 +21,7 @@ function Footer() {
             href="https://www.linkedin.com/in/danielfloresd/"
             target="_blank"
           >
+            {" "}
             <Linkedin />
           </a>
         </Col>
@@ -30,6 +31,7 @@ function Footer() {
             href="https://github.com/danielfloresd"
             target="_blank"
           >
+            {" "}
             <Github />
           </a>
         </Col>
@@ -39,6 +41,7 @@ function Footer() {
             href="mailto:daniel.flor3s.d@gmail.com"
             target="_blank"
           >
+            {" "}
             <Google />
           </a>
         </Col>
@@ -55,10 +58,17 @@ function Footer() {
         <Col>
           <a
             className="social-inner"
-            href="https://www.bootswatch.com"
+            href="https:/ /
+          www.bootswatch.com "
             target="_blank"
           >
-            <span style={{ fontSize: "xx-small" }}>Powered by</span>{" "}
+            <span
+              style={{
+                fontSize: "xx-small",
+              }}
+            >
+              Powered by
+            </span>{" "}
             <Bootstrap />
           </a>
         </Col>

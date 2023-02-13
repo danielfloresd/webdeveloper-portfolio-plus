@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Button, Form } from "react-bootstrap";
 
 function Contact() {
   const [validated, setValidated] = useState(false);
@@ -10,7 +10,7 @@ function Contact() {
       event.preventDefault();
       event.stopPropagation();
     }
-    
+
     setValidated(true);
   };
 

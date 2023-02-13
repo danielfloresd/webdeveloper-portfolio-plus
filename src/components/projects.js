@@ -38,7 +38,8 @@ const PROJECTS = [
   // {
   //   title: "Team Profile Generator",
   //   description:
-  //     "A web app created to automatically generate a styled HTML file displaying all members of a development team.",
+  //     "A web app created to automatically generate a styled HTML file
+  //     displaying all members of a development team.",
   //   tech: "Node.js/Jest/Foundation",
   //   image: "assets/images/team-profile-generator.png",
   //   url: "https://danielfloresd.github.io/team-profile-generator/",
@@ -47,7 +48,8 @@ const PROJECTS = [
   // {
   //   title: "Watch-This-Now",
   //   description:
-  //     "A web app that allows users to search for movies and TV shows and add them to their watchlist.",
+  //     "A web app that allows users to search for movies and TV shows and add
+  //     them to their watchlist.",
   //   tech: "jQuery/SemanticUI",
   //   image: "assets/images/watch-this-now.gif",
   //   url: "https://danielfloresd.github.io/my-watch-this-now/",
@@ -56,7 +58,8 @@ const PROJECTS = [
   // {
   //   title: "Pro README.md Generator",
   //   description:
-  //     "A node.js and web app used to generate professional readme.md file for github projects",
+  //     "A node.js and web app used to generate professional readme.md file for
+  //     github projects",
   //   tech: "Node.js/Inquirer",
   //   image: "assets/images/professional-readme-generator.gif",
   //   url: "https://danielfloresd.github.io/professional-readme-generator/",
@@ -74,7 +77,8 @@ const PROJECTS = [
   // {
   //   title: "Bootcamp Coding Quiz",
   //   description:
-  //     "A web app that allows users to take a timed quiz on JavaScript fundamentals.",
+  //     "A web app that allows users to take a timed quiz on JavaScript
+  //     fundamentals.",
   //   tech: "HTML/CSS/JavaScript",
   //   image: "assets/images/bootcamp-coding-quiz.png",
   //   url: "https://danielfloresd.github.io/bootcamp-coding-quiz/",

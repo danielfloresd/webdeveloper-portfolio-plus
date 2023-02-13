@@ -1,6 +1,8 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
+
 import Project from "../components/Project";
+
 import PROJECTS from "./projects";
 
 function Portfolio() {
@@ -21,7 +23,10 @@ function Portfolio() {
             </Col>
           ))}
           <br />
-          <a href="https://github.com/danielfloresd?tab=repositories" target="_blank">
+          <a
+            href="https://github.com/danielfloresd?tab=repositories"
+            target="_blank"
+          >
             <Button variant="info" size="sm">
               View More...
             </Button>
