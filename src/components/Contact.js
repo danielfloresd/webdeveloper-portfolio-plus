@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Form, Button, Card, Row, Col } from "react-bootstrap";
 
 function Contact() {
   const [validated, setValidated] = useState(false);
@@ -10,26 +10,42 @@ function Contact() {
       event.preventDefault();
       event.stopPropagation();
     }
-    
+
     setValidated(true);
   };
 
   return (
-    <Form noValidate validated={validated} onSubmit={handleSubmit}>
-      <Form.Group controlId="formName">
-        <Form.Label>Name</Form.Label>
-        <Form.Control required type="text" placeholder="Enter your name" />
-      </Form.Group>
-      <Form.Group controlId="formEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control required type="email" placeholder="Enter email" />
-      </Form.Group>
-      <Form.Group controlId="formMessage">
-        <Form.Label>Message</Form.Label>
-        <Form.Control required as="textarea" placeholder="Enter message" />
-      </Form.Group>
-      <Button type="submit">Submit</Button>
-    </Form>
+    <Row>
+      <Col lg={8} >
+        <Card>
+          <Card.Body>
+            <Form noValidate validated={validated} onSubmit={handleSubmit}>
+              <Form.Group controlId="formName">
+                <Form.Label>Name</Form.Label>
+                <Form.Control
+                  required
+                  type="text"
+                  placeholder="Enter your name"
+                />
+              </Form.Group>
+              <Form.Group controlId="formEmail">
+                <Form.Label>Email address</Form.Label>
+                <Form.Control required type="email" placeholder="Enter email" />
+              </Form.Group>
+              <Form.Group controlId="formMessage">
+                <Form.Label>Message</Form.Label>
+                <Form.Control
+                  required
+                  as="textarea"
+                  placeholder="Enter message"
+                />
+              </Form.Group>
+              <Button type="submit">Submit</Button>
+            </Form>
+          </Card.Body>
+        </Card>
+      </Col>
+    </Row>
   );
 }
 
