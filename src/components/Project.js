@@ -7,23 +7,24 @@ import { Github } from "react-bootstrap-icons";
 
 function Project({ title, description, url, github, tech, image }) {
   return (
-    <Card className="mb-10" style={{ width: "400px", marginBottom:"20"}}>
+    <Card style={{ marginBottom: "10px" }}>
+    {/* <Card style={{ width: "380px", marginBottom:"20"}}> */}
       <Card.Header>{title}</Card.Header>
-      <a href={url} variant="link">
-        <Card.Img src={image} style={{ width: "400px", height: "200px" }} />
+      <a href={url} target="_blank" variant="link">
+        {/* <Card.Img src={image} style={{ width: "400px", height: "200px" }} /> */}
+        <Card.Img src={image} style={{ height: "200px" }} />
       </a>
       <Card.Body>
-        <Card.Text
-          style={{ width: "380px", height: "50px", fontSize: "small" }}
-        >
+        <Card.Text style={{ height: "50px", fontSize: "small" }}>
           {description}
         </Card.Text>
         <Card.Footer>
-        <Badge bg="secondary">
-          <a href={github} data-tooltip="danielfloresd">
-            <Github />{tech}
-          </a>
-        </Badge>
+          <Badge bg="secondary">
+            <a href={github} target="_blank" data-tooltip="danielfloresd">
+              <Github />
+              {tech}
+            </a>
+          </Badge>
         </Card.Footer>
       </Card.Body>
     </Card>
