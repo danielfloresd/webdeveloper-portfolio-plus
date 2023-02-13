@@ -1,28 +1,35 @@
-import Navigation from "./Navigation";
-import Footer from "./Footer";
-import AppGrid from "./AppGrid";
-import Button from "react-bootstrap/Button";
+import React from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import Project from "../components/Project";
+import PROJECTS from "./projects";
 
-function Porfolio() {
+function Portfolio() {
   return (
-    <div>
-      <header>
-        <Navigation />
-      </header>
-      <main>
-        <h2 className="text-center">Porfolio</h2>
-        <AppGrid />
-        <a href="https://github.com/danielfloresd?tab=repositories">
-          <Button variant="info" size="sm" block>
-            View More...
-          </Button>
-        </a>
-      </main>
-      <footer>
-        <Footer />
-      </footer>
-    </div>
+    <main>
+      <Container>
+        <Row>
+          {PROJECTS.map((project) => (
+            <Col sm={12} lg={4} key={project.title}>
+              <Project
+                title={project.title}
+                description={project.description}
+                url={project.url}
+                github={project.github}
+                tech={project.tech}
+                image={project.image}
+              />
+            </Col>
+          ))}
+          <br />
+          <a href="https://github.com/danielfloresd?tab=repositories" target="_blank">
+            <Button variant="info" size="sm">
+              View More...
+            </Button>
+          </a>
+        </Row>
+      </Container>
+    </main>
   );
 }
 
-export default Porfolio;
+export default Portfolio;

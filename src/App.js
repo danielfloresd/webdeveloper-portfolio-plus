@@ -1,6 +1,12 @@
 import { random } from 'lodash';
 import React, { useEffect } from 'react';
-import Home from "./components/Home";
+import { useState } from "react";
+import './App.css';
+
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
+import Page from "./components/Page";
+import 'bootstrap/dist/css/bootstrap.css';
 
 const bootswatchThemes = [
   "cerulean",
@@ -27,15 +33,31 @@ const bootswatchThemes = [
 
 const selectedTheme = bootswatchThemes[random(0, bootswatchThemes.length - 1)];
 
-
-// const cssPath = `bootswatch/dist/${selectedTheme}/bootstrap.min.css`;
 const cssPath = `bootswatch/dist/${selectedTheme}/bootstrap.min.css`;
 
 const importCSS = (path) => {
   return import(`../node_modules/bootswatch/dist/${selectedTheme}/bootstrap.min.css`);
 };
 
+
 function App() {
+  const [pages] = useState ([
+    {
+      name: "About Me"
+    },
+    {
+      name: "Portfolio"
+    },
+    {
+      name: "Contact"
+    },
+    {
+      name: "Resume"
+    },
+  ]);
+
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
   useEffect(() => {
     importCSS(selectedTheme).then(cssModule => {
       console.log("cssModule", cssModule)
@@ -46,10 +68,19 @@ function App() {
       document.head.appendChild(link);
     });
   }, []);
+
   return (
-    <>
-      <Home css={selectedTheme} />
-    </>
+    <div className="App">
+      <NavBar
+          pages={pages}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
+      ></NavBar>
+      <main>
+        <Page currentPage={currentPage}></Page>
+      </main>
+      <Footer></Footer>
+    </div>
   );
 }
 
