@@ -12,7 +12,6 @@ Developer portfolio implemented using React and Bootswatch
 
 - [Description](#description)
 - [Installation](#🛠️installation)
-- [Running Scripts](#🚀running-scripts)
 - [Usage](#💻usage)
 - [Dependencies](#🧩dependencies)
 - [License](#📛license)
@@ -27,7 +26,7 @@ Developer portfolio implemented using React and Bootswatch
 
 To install the application clone the repository https://github.com/danielfloresd/webdeveloper-portfolio-plus and run node package manager with the following command: ```npm i```.
 
-## 🚀Running Scripts
+## 💻Usage
 
 ### `npm start`
 
@@ -52,15 +51,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Deployment
-
-`npm run deploy`
+### `npm run deploy`
 
 Deploys app to gh-pages
-
-## 💻Usage
-
-After installing all dependencies run ```npm start``` to launch a webserver.
 
 ## 🧩Dependencies
 *   "fontawesome": "^6.3.0"
