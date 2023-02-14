@@ -1,10 +1,33 @@
-# Getting Started with Create React App
+[![DeepScan grade](https://deepscan.io/api/teams/19657/projects/23124/branches/691436/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=19657&pid=23124&bid=691436)[![CodeFactor](https://www.codefactor.io/repository/github/danielfloresd/employee-track-cms/badge)](https://www.codefactor.io/repository/github/danielflores/demployee-track-cms)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Webdeveloper Portfolio Plus
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Developer portfolio implemented using React and Bootswatch
+
+<img src="./public/assets/images/screenshot.jpg" width="500">
+
+## Table of contents
+
+- [Description](#description)
+- [Installation](#🛠️installation)
+- [Running Scripts](#🚀running-scripts)
+- [Usage](#💻usage)
+- [Dependencies](#🧩dependencies)
+- [License](#📛license)
+- [Contributing](#🤝contributing)
+- [Tests](#📃tests)
+- [Questions](#❓questions)
+- [Website](#🌐website)
+- [Programming Languages](#👨‍💻programming-languages)
+- [Credits](#👨creadits)
+
+## 🛠️Installation
+
+To install the application clone the repository https://github.com/danielfloresd/webdeveloper-portfolio-plus and run node package manager with the following command: ```npm i```.
+
+## 🚀Running Scripts
 
 ### `npm start`
 
@@ -29,42 +52,79 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+`npm run deploy`
 
-### `npm run build` fails to minify
+Deploys app to gh-pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 💻Usage
+
+After installing all dependencies run ```npm start``` to launch a webserver.
+
+## 🧩Dependencies
+*   "fontawesome": "^6.3.0"
+*   "bootstrap": "^5.1.3"
+*   "bootswatch": "^5.2.3"
+*   "gh-pages": "^5.0.0"
+*   "lodash": "^4.17.21"
+*   "popper": "^1.0.1"
+*   "react": "^18.2.0"
+*   "react-bootstrap": "^2.7.1"
+*   "react-scripts": "5.0.1"
+
+## 📛License
+
+Project license: [MIT](https://choosealicense.com/licenses/mit).
+
+<details><summary><b>View License</b></summary>MIT License
+
+Copyright (c) 2022 Daniel Flores D
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+</details></br>
+
+## 🤝Contributing
+
+If you would like to contribute, please follow the [GitHub contribution guidelines](https://github.com/github/docs/blob/main/CONTRIBUTING.md)
+
+## 📃Tests
+
+Testing implemented using jest. To run unit testing ```npm test```
+
+## ❓Questions
+
+For questions, please contact:
+
+- [![GitHub github:](https://img.shields.io/badge/github:-danielfloresd-black.svg)](https://github.com/danielfloresd)
+- [![email](https://img.shields.io/badge/email:-daniel.flor3s.d@gmail.com-blue.svg)](mailto:daniel.flor3s.d@gmail.com)
+
+
+## 🌐Website
+
+[JATE Web](https://jate-web.herokuapp.com/)
+
+## 👨‍💻Programming Languages
+
+This project was created with: JavaScript and Webpack
+
+## 👨Credits
+
+Started code provided by the University of Arizona coding bootcamp
