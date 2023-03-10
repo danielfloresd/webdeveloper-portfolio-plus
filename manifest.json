@@ -1,6 +1,6 @@
 {
-  "short_name": "Webdeveloper Portfolio Plus",
-  "name": "Webdeveloper Portfolio Plus",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
